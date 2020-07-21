@@ -87,7 +87,6 @@ while True:
     screen.blit(text_total, (SIZE_BLOCK, SIZE_BLOCK)) # размещение на экране Итого. метод blit-> что распологаем, списком передаем где распологаем
     screen.blit(text_speed, (SIZE_BLOCK+200, SIZE_BLOCK)) # размещение на экране СкОрОсть.
 
-
     for row in range(COUNT_BLOCKS): # ряды
         for column in range(COUNT_BLOCKS): # колонки
             if (row + column) % 2 == 0:  # Раскрашиваем кубики через один, разным цветом
